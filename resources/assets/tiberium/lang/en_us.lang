@@ -1,0 +1,8 @@
+# Mod Display Name
+itemGroup.tiberium=Tiberium
+
+# Items
+item.rawtiberiumshard.name=Tiberium Shard
+
+# Blocks
+tile.oretiberium.name=Tiberium Ore

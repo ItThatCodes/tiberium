@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tiberium:oretiberium"
+    }
+  ],
+  "result": {
+    "item": "tiberium:rawtiberiumshard",
+    "count": 8
+  }
+}

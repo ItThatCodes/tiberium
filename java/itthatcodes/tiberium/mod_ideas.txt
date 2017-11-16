@@ -1,0 +1,22 @@
+tiberium ideas:
+search around Crystal for tiberium ore:
+ - if not present: % chance to spawn ore
+ - if present:
+     (option 1) check each block below ore all the way to bedrock looking for other ores, if found:
+	   - % chance to replace ore with Stone/dirt/etc... and then either:
+	     * record what ore was found in NBT data of tiberium ore for later processing
+		 * record how many ores were found in NBT data of tiberium ore for later random processing
+		 * do nothing else
+
+(option 2) tiberium ore - pre spawns with Crystal but is not initially visible,
+           Then check as above in (option 1) but 'grow' the tiberium ore relative to each other ore leached.
+
+(TBD) HOW DOES TIBERIUM SPREAD [ideally] without making it as broken as Thaumcraft Taint. - EB]
+(option 1) as ore is leached, if a threshold is met, ex. 15 ores, convert tiberium ore into new Crystal and spawn new
+           tiberium ores based on that Crystal.
+
+NOTE 1: Crystals should remember when they were initially created so that retroactive processing can occur when chunk
+        is reloaded.
+
+NOTE 2: Perhaps the tiberium ore should function more like a crop and can be harvested, but cannot be destroyed without
+        use of a Harvester.
